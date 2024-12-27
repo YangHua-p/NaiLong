@@ -1,27 +1,41 @@
+---
+created: 2024-12-27T15:59
+updated: 2024-12-27T16:16
+---
 
-Installation information
-=======
+# 背景故事
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+> 
+> "我是奶龙！"
+> "我才是奶龙！"
+> “我会喷火，你会吗？”
+> “我还会变色呢！”
+> "可恶，你竟然都会！"
+> “我有办法，奶龙啥都吃。”
+> “呕，你才是奶龙。”
+> ——《奶龙》
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+> [!note]- AI Generated
+> 
+> “我是奶龙！”一只奶龙说。
+> “我才是奶龙！”另一只奶龙说。
+> “我会喷火，你会吗？”第一只奶龙骄傲地展示。
+> “我还会变色呢！”第二只奶龙得意地摆了摆尾巴，全身上下变幻着蓝色、粉色和紫色。
+> “可恶，你竟然都会！”第一只奶龙有些嫉妒，嘴里嘟囔着。
+> 就在这时，聪明的小七开口了。“我有办法，奶龙啥都吃。”他从背包里拿出一罐鲱鱼罐头，罐头散发着深绿色的臭味。
+> 奶龙们一见，立刻露出了嫌弃的表情：“呕，你才是奶龙。”它们都摇着头，不愿意靠近那罐鲱鱼罐头。
+> 这时，两个奶龙互相对视，意识到争吵没有意义。它们齐齐摇摇头，心里决定放下争执，毕竟没有一个奶龙愿意吃那可怕的鲱鱼罐头。
+> "我可真是个小机灵鬼。"奶龙们想着。
 
-> **Note**: For Eclipse, use tasks in `Launch Group` instead of ones founds in `Java Application`. A preparation task must run before launching the game. NeoGradle uses launch groups to do these subsequently.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+# 介绍
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+这个模组为 minecraft 添加了 `奶龙` 方块和物品，用来给你的世界增添==奶龙==风味。
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+~~学了新工具当然要用来拉史了🤓☝~~
+
+# 后续计划
+- [ ] 模型尺寸和细节调整
+- [ ] 支持音效播放
+- [ ] 添加多种模型
+- [ ] 完成合成配方和语言文件配置
