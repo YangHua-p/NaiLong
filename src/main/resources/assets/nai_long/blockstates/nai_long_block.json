@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "nai_long:block/nai_long_block" }
+  }
+}
